@@ -33,6 +33,9 @@ https://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportco
 Ensure that you've configured endpoints for xMatters and AppMon in the Outbound Integration.
    
 # Testing
-Once you have the xMatters AppMon Plugin deployed in Dynatrace AppMon, test it from the Plugin Development page in AppMon's Server Settings:
+Once you have the xMatters AppMon Plugin deployed in Dynatrace AppMon and the Comm Plan configured in xMatters, test things using the Plugin Development page in AppMon's Server Settings:
 
 [Testing the AppMon Plugin](media/appMonTestPlugin.PNG) 
+
+You should be able to see an event in the xMatters Reports page.
+
