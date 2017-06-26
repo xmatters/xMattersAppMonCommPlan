@@ -1,14 +1,6 @@
 /*
- * To use functions that are defined in a shared library, import
- * the shared library using the require function. You can then
- * access the functions in the shared library. Shared library names
- * are case-sensitive.
+ * Outbound integration script for the Dynatrace AppMon Comm Plan. Processes incoming JSON from the AppMon xMatters Plugin.
  *
- * The following statements show how to use a function named 'myFunction'
- * that is included in a shared library named 'My Shared Library'.
- *
- * var mySharedLibrary = require('My Shared Library');
- * var message = mySharedLibrary.myFunction();
  */
 
 var callback = JSON.parse(request.body);
@@ -32,6 +24,13 @@ if (callback.annotation == "null") {
 }
 
 console.log('Processing response of ' + callback.response + ' from ' + callback.recipient);
+
+/*
+ * The current response options include confirming an incident back into AppMon, creating a Jira ticket, and talking to
+ * whatever build system might be in use. The Jira ticket and build system integrations are currently just stubs, for
+ * future enhancements.
+ */
+
 switch (callback.response) {
     case 'Confirm Incident':
         appMonConfirmviaREST(callback.eventProperties['incidentID']);
@@ -73,9 +72,9 @@ function appMonConfirmviaREST(incidentID) {
  */
  
 function createJiraTicket() {
-    console.log('RESPONISE IS CREATE JIRA TICKET');
+    console.log('RESPONSE IS CREATE JIRA TICKET');
 }
 
 function talkToBuildSys() {
-    console.log('RESPOBISE IS TALK TO BUILD SYSTEM');  
+    console.log('RESPONSE IS TALK TO BUILD SYSTEM');  
 }
