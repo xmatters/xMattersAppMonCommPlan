@@ -25,7 +25,6 @@ You can configure any incident rule in Dynatrace AppMon to use the xMatters plug
 
 Here's a screencap from the AppMon client Server Settings page that shows you how to install plugins:
 
-https://github.com/rstatsinger/xMattersAppMonCommPlan/blob/master/appMonInstallPlugin.PNG
 
 
 2. Ensure that this Comm Plan has been deployed into xMatters. For help on configuring Comm Plans, please see this link:
@@ -34,4 +33,3 @@ https://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportco
 # Testing
 Once you have the xMatters AppMon Plugin deployed in Dynatrace AppMon, test it from the Plugin Development page in AppMon's Server Settings:
 
-https://github.com/rstatsinger/xMattersAppMonCommPlan/blob/master/appMonTestPlugin.PNG
