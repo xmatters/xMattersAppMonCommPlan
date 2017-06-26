@@ -21,6 +21,9 @@ You can configure any incident rule in Dynatrace AppMon to use the xMatters plug
 * xMatters Integration URL
 * Subject
 * Message
+
+2. Ensure that this Comm Plan has been deployed into xMatters. For help on configuring Comm Plans, please see this link:
+https://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm
    
 # Testing
 Once you have the xMatters AppMon Plugin deployed in Dynatrace AppMon, test it from the Plugin Development page in AppMon's Server Settings:
