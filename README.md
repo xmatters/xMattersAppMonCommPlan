@@ -25,7 +25,7 @@ You can configure any incident rule in Dynatrace AppMon to use the xMatters plug
 
 Here's a screencap from the AppMon client Server Settings page that shows you how to install plugins:
 
-[appMonInstallPlugin.png](appMonInstallPlugin.png)
+[blob/master/appMonInstallPlugin.png](appMonInstallPlugin.png)
 
 https://github.com/rstatsinger/xMattersAppMonCommPlan/blob/master/appMonInstallPlugin.PNG
 
