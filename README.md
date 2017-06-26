@@ -29,8 +29,6 @@ Here's a screencap from the AppMon client Server Settings page that shows you ho
   <img src="media/appMonInstallPlugin.PNG" alt="Installing the AppMon Plugin" height="400">
 </kbd>
 
-[Installing the AppMon Plugin](media/appMonInstallPlugin.PNG) 
-
 2. Ensure that this Comm Plan has been deployed into xMatters. For help on configuring Comm Plans, please see this link:
 https://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm
 
@@ -39,7 +37,9 @@ Ensure that you've configured endpoints for xMatters and AppMon in the Outbound 
 # Testing
 Once you have the xMatters AppMon Plugin deployed in Dynatrace AppMon and the Comm Plan configured in xMatters, test things using the Plugin Development page in AppMon's Server Settings:
 
-[Testing the AppMon Plugin](media/appMonTestPlugin.PNG) 
+<kbd>
+  <img src="media/appMonTestPlugin.PNG" alt="Testing the AppMon Plugin" height="400">
+</kbd>
 
 You should be able to see an event in the xMatters Reports page.
 
