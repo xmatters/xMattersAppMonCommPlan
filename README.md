@@ -27,6 +27,8 @@ Here's a screencap from the AppMon client Server Settings page that shows you ho
 
 [appMonInstallPlugin.png](appMonInstallPlugin.png)
 
+https://github.com/rstatsinger/xMattersAppMonCommPlan/blob/master/appMonInstallPlugin.PNG
+
 
 2. Ensure that this Comm Plan has been deployed into xMatters. For help on configuring Comm Plans, please see this link:
 https://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm
