@@ -8,8 +8,9 @@ This xMatters Comm Plan receives and processes notifications from Dynatrace AppM
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
-* [FileA.js](FileA.js) - The javascript file to be pasted into a Shared Library. It generally does xyz. 
-* [MySweetCommPlan.zip](MySweetCommPlan.zip) - The comm plan (if needed) that has all the coold scripts and email format and such. 
+* [InboundFromAppMon.js](InboundFromAppMon.js) - Inbound integration script.
+* [Outbound.js](Outbound.js) - Outbound integration script.
+* [DynatraceApplicationMonitoring30.zip](DynatraceApplicationMonitoring.zip) - The comm plan (if needed) 
 
 # How it works
 
