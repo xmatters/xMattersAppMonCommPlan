@@ -1,16 +1,6 @@
 /*
- * To use functions that are defined in a shared library, import
- * the shared library using the require function. You can then
- * access the functions in the shared library. Shared library names
- * are case-sensitive.
- *
- * The following statements show how to use a function named 'myFunction'
- * that is included in a shared library named 'My Shared Library'.
- *
- * var mySharedLibrary = require('My Shared Library');
- * var message = mySharedLibrary.myFunction();
+ * Script for Inbound Integrations from Dynatrace AppMon. Handles notifications from the xMatters Plugin for AppMon.
  */
-
 
 var data;
 
