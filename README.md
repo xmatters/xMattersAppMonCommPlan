@@ -3,7 +3,7 @@
 This xMatters Comm Plan receives and processes notifications from Dynatrace AppMon v7.0+, and features closed loop integration. 
 
 # Pre-Requisites
-* Dynatrace AppMon v7.0+, configured with the xMatters AppMon Plugin - available here: https://community.dynatrace.com/community/display/DL/xMatters+Plugin
+* Dynatrace AppMon v7.0+, configured with the xMatters AppMon Plugin - available [here](https://community.dynatrace.com/community/display/DL/xMatters+Plugin).
 
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
