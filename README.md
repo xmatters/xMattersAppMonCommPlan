@@ -4,7 +4,6 @@ This xMatters Comm Plan receives and processes notifications from Dynatrace AppM
 
 # Pre-Requisites
 * Dynatrace AppMon v7.0+, configured with the xMatters AppMon Plugin - available [here](https://github.com/Dynatrace/Dynatrace-AppMon-xMatters-Plugin).
-
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
