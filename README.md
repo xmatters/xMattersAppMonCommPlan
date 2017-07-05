@@ -4,12 +4,9 @@ This xMatters Comm Plan receives and processes notifications from Dynatrace AppM
 
 # Pre-Requisites
 * Dynatrace AppMon v7.0+, configured with the xMatters AppMon Plugin - available [here](https://github.com/Dynatrace/Dynatrace-AppMon-xMatters-Plugin).
-
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
-* [InboundFromAppmon.js](InboundFromAppmon.js) - Inbound integration script.
-* [Outbound.js](Outbound.js) - Outbound integration script.
 * [DynatraceApplicationMonitoring30.zip](DynatraceApplicationMonitoring30.zip) - The comm plan (if needed) 
 
 # How it works
