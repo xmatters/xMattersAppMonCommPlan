@@ -8,6 +8,7 @@ This xMatters Comm Plan receives and processes notifications from Dynatrace AppM
 
 # Files
 * [DynatraceApplicationMonitoring30.zip](DynatraceApplicationMonitoring30.zip) - The comm plan (if needed) 
+* Short video of the integration: (media/xMattersAppMonIntegration.mp4)
 
 # How it works
 
