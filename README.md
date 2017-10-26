@@ -6,6 +6,16 @@ Check out the video:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pr6Zp7tKpvI/0.jpg)](https://www.youtube.com/watch?v=pr6Zp7tKpvI)
 
+---------
+
+<kbd>
+  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</kbd>
+
+---------
+
+
+
 # Pre-Requisites
 * Dynatrace AppMon v7.0+, configured with the xMatters AppMon Plugin - available [here](https://github.com/Dynatrace/Dynatrace-AppMon-xMatters-Plugin).
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
