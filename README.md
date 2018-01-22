@@ -44,8 +44,8 @@ Here's a screencap from the AppMon client Server Settings page that shows you ho
 2. Ensure that this Comm Plan has been deployed into xMatters. For help on configuring Comm Plans, please see this link:
 https://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm
 
-Ensure that you've configured endpoints for xMatters and AppMon in the Outbound Integration.
-   
+3. Update the `AppMon` outbound endpoint with the proper Base URL. If AppMon is running behind a firewall, check out the [xAgent here](https://help.xmatters.com/OnDemand/xmodwelcome/xmattersagent/xmatters-agent-topic.htm)
+
 # Testing
 Once you have the xMatters AppMon Plugin deployed in Dynatrace AppMon and the Comm Plan configured in xMatters, test things using the Plugin Development page in AppMon's Server Settings:
 
